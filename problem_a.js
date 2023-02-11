@@ -1,9 +1,13 @@
+/* 
+Program that prompt a sentence as user input and alerts "no" if input string has repeating words
+Alerts "Yes" if no words are repeated
+*/
 
 'use strict'
 
 while(true){
  
-const input = prompt("Type a sentence:") //"THE RAIN IN SPAIN";
+const input = prompt("Type a sentence:") //Example "THE RAIN IN SPAIN";
 let sentence = input.split(" ");
 
 alert(findRepeatingWords(sentence));
