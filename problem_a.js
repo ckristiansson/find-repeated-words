@@ -7,10 +7,10 @@ Alerts "Yes" if no words are repeated
 
 while(true){
  
-const input = prompt("Type a sentence:") //Example "THE RAIN IN SPAIN";
-let sentence = input.split(" ");
+    const input = prompt("Type a sentence:") //Example "THE RAIN IN SPAIN";
+    let sentence = input.split(" ");
 
-alert(findRepeatingWords(sentence));
+    alert(findRepeatingWords(sentence));
 
 }
 
